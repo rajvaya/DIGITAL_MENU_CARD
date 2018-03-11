@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bugscreator.menu.admin"
+    android:padding="6dp">
+
+    <EditText
+        android:id="@+id/etbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter table name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/stn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="set"
+        android:text="SET TABLE NAME" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exit"
+        android:text="CLOSE APP" />
+
+</LinearLayout>
